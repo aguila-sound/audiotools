@@ -16,6 +16,7 @@ Recent macOS versions may prevent pip from installing packages system-wide. You 
 Option 1: Use a Virtual Environment (Recommended)
 
 1. Clone repository:
+
    git clone https://github.com/aguila-sound/audiotools.git
 
    cd audiotools
