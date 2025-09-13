@@ -35,10 +35,10 @@ Behavior:
 
 Flags:
 
---fix     Remove DC offset. Automatically applies zero alignment. Prompts before overwriting unless --force is used.
---zero    Aligns first sample to zero without applying DC offset. Runs automatically.
---force   Skips prompts and overwrites files automatically.
---help    Show help message.
+- --fix     Remove DC offset. Automatically applies zero alignment. Prompts before overwriting unless --force is used.
+- --zero    Aligns first sample to zero without applying DC offset. Runs automatically.
+- --force   Skips prompts and overwrites files automatically.
+- --help    Show help message.
 
 Output behavior:
 
@@ -47,10 +47,10 @@ Output behavior:
 
 Examples:
 
-python3 dccheck.py mix.wav
-python3 dccheck.py folder_of_audio --fix
-python3 dccheck.py folder_of_audio --zero
-python3 dccheck.py folder_of_audio --fix --force
+- python3 dccheck.py mix.wav
+- python3 dccheck.py folder_of_audio --fix
+- python3 dccheck.py folder_of_audio --zero
+- python3 dccheck.py folder_of_audio --fix --force
 
 ---
 
@@ -70,14 +70,14 @@ Behavior:
 
 Flags:
 
---force    Skip prompts and overwrite originals automatically.
---help     Show help message.
+- --force    Skip prompts and overwrite originals automatically.
+- --help     Show help message.
 
 Examples:
 
-python3 monomake.py mix.wav
-python3 monomake.py folder_of_audio
-python3 monomake.py folder_of_audio --force
+- python3 monomake.py mix.wav
+- python3 monomake.py folder_of_audio
+- python3 monomake.py folder_of_audio --force
 
 ---
 
@@ -98,13 +98,13 @@ Behavior:
 
 Flags:
 
---fix      Automatically flips inverted files.
---help     Show help message.
+- --fix      Automatically flips inverted files.
+- --help     Show help message.
 
 Examples:
 
-python3 pcheck.py master.wav folder_of_audio
-python3 pcheck.py master.wav folder_of_audio --fix
+- python3 pcheck.py master.wav folder_of_audio
+- python3 pcheck.py master.wav folder_of_audio --fix
 
 ---
 
