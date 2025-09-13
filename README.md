@@ -17,18 +17,19 @@ Option 1: Use a Virtual Environment (Recommended)
 
 1. Clone repository:
    git clone https://github.com/aguila-sound/audiotools.git
+
    cd audiotools
 
-2. Create virtual environment:
+3. Create virtual environment:
    python3 -m venv venv
 
-3. Activate it:
+4. Activate it:
    source venv/bin/activate
 
-4. Install dependencies inside the venv:
+5. Install dependencies inside the venv:
    python3 -m pip install numpy soundfile
 
-5. Run any script:
+6. Run any script:
    python3 dccheck.py <file_or_folder>
 
 Option 2: Use pipx (Global CLI)
